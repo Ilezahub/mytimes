@@ -37,6 +37,8 @@ a {
   color: black;
 }
 
+/*  News Column Main Content */
+
 p {
   display: block;
 }
@@ -82,4 +84,46 @@ div {
 
 .column.small{
   width: 240px;
+}
+
+/* New addition for task 4 .lead-story .image-content .narrative and images */
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content {
+/*  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: Georgia;
+  height: 300px;
+  font-weight: bold;
+  color: white;
+}
+
+.lead-story .image-content {
+  /* if not responding to changes check spacing btwn class names */
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.fall-cancelled.image-content {
+  background-image: url("../images/img-story-2.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("../images/img-story-3.png");
+}
+
+.cat-ceo.image-content {
+  background-image: url("../images/img-story-1.png");
 }
