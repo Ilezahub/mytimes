@@ -50,8 +50,7 @@ h2 {
 
 h3 {
   display: block;
-  font-size: 1.17em;
-  font-weight: bold;
+  /* font-size: 1.17em; font-weight: bold; removed for task 6 */
 }
 
 div {
@@ -146,4 +145,23 @@ div {
 .stories .text-content {
   /* if not responding to changes check spacing btwn class names */
   height: 250px;
+}
+
+/* New additions for task 6 .news-bites.bite and .news-bites h3 */
+
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.news-bites h3 {
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
