@@ -96,14 +96,14 @@ div {
 
 /*  display: flex; flex-direction: column; justify-content: center; changes ADDED to .image-content for task 5 */
 /* display: flex; flex-direction: column; justify-content: center; margin-top: 15px; REMOVED for task 7 */
-
+/* display: flex; flex-direction: column; justify-content: center; margin-top: 15px; ADDED back in again for task 8 */
 
 .image-content {
-  /* display: flex;
+ display: flex;
   flex-direction: column;
-  justify-content: center; */
+  justify-content: center;
   text-align: center;
-  /* margin-top: 15px; */
+  margin-top: 15px;
   font-size: 30px;
   font-family: Georgia;
   height: 300px;
@@ -118,6 +118,12 @@ div {
   margin-top: 0;
   font-size: 40px;
   text-align: left;
+}
+
+/* (.lead-story .image-content span) margin-left: 20px; Added for task 8 */
+
+.lead-story .image-content span {
+margin-left: 20px;
 }
 
 .fall-cancelled.image-content {
