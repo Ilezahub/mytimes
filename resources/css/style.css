@@ -85,21 +85,25 @@ div {
 }
 
 /* New addition for task 4 .narrative  .image-content   .lead-story.image-content and images(pictures) */
+/* margin-top: 16px; ADDED for task 7 */
 
 .narrative {
+  margin-top: 16px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
-/*  display: flex; flex-direction: column; justify-content: center; changes added to .image-content for task 5 */
+/*  display: flex; flex-direction: column; justify-content: center; changes ADDED to .image-content for task 5 */
+/* display: flex; flex-direction: column; justify-content: center; margin-top: 15px; REMOVED for task 7 */
+
 
 .image-content {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
   text-align: center;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   font-size: 30px;
   font-family: Georgia;
   height: 300px;
@@ -164,4 +168,44 @@ div {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+}
+
+/* footer added for task 7 then font-family: Verdana; and font-size: 12px; replaced in (footer .title) with font-family: Georgia; font-size: 16px; */
+
+footer {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+height: 325px;
+background-color: MediumAquamarine;
+margin: auto;
+font-family: Verdana;
+font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+ .info {
+  display: inline-block;
+  padding-left: 30px;
 }
